@@ -14,9 +14,9 @@ let handler = async m => m.reply(`
    
 💥 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐃𝐄 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈𝐎𝐍 𝐕𝐈𝐀 𝐆𝐈𝐓𝐇𝐔𝐁 💥
 ➤ apt update && apt upgrade -y -y
-➤ apt install nodejs -y
-➤ apt install ffmpeg -y
-➤ apt install imagemagick -y
+➤ pkg install nodejs -y
+➤ pkg install ffmpeg -y
+➤ pkg install imagemagick -y
 ➤ pkg install npm 
 ➤ termux-setup-storage
 ➤ cd storage/downloads/FNBot
