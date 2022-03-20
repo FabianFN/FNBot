@@ -1,5 +1,5 @@
 > Para activar algunos comandos como 
-el #a?adir y #sacar el propietario del 
+el #añadir y #sacar el propietario del 
 Bot debera usar el comando #enable restrict 
 desde el numero que haya puesto en el archivo 
 config.js
@@ -9,7 +9,7 @@ config.js
 > npm start 
 
 > Si el termux se cierra para volver activar escribe:
-> cd ShadowBotV3
+> cd FNBot
 > npm start 
 
 > cada vez que realices una modificacion en el
