@@ -4,7 +4,7 @@ let handler = async m => m.reply(`
 *◄┢┅͜͡✇⟬↯ື ►∉𝓕𝓪͢͢͢𝓫𝓲𝓪𝓷∌◄ ↯ື⟭✇͜͡┅┧►*
 
 💥 𝐑𝐄𝐐𝐔𝐈𝐒𝐈𝐓𝐎𝐒 𝐏𝐀𝐑𝐀 𝐋𝐀 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈𝐎𝐍 💥
-➤ Tutorial completo: 
+➤ Tutorial completo: https://youtu.be/6J3OZXzib5Q
 ➤ Termux  
 ➤ 1 GB de memoria en el teléfono
 ➤ Aconsejable un WhatsApp secundario
