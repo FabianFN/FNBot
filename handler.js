@@ -170,6 +170,7 @@ module.exports = {
           if (!('sWelcome' in chat)) chat.sWelcome = ''
           if (!('sBye' in chat)) chat.sBye = ''
           if (!('sPromote' in chat)) chat.sPromote = ''
+          if (!('nsfw' in chat)) chat.nsfw = true
           if (!('sDemote' in chat)) chat.sDemote = ''
           if (!('delete' in chat)) chat.delete = false
           if (!('antidelete' in chat)) chat.antidelete = false
@@ -179,7 +180,8 @@ module.exports = {
         } else global.DATABASE._data.chats[m.chat] = {
           isBanned: false,
           welcome: true, 
-          detect: false,
+          detect: true,
+          nsfw: true,
           sWelcome: "",
           sBye: '',
           sPromote: '',
@@ -532,10 +534,11 @@ global.dfail = (type, m, conn) => {
     mods: '*[ ⚠ ️] Este comando solo puede ser utilizado por moderadores y el propietario/owner del Bot*',
     premium: '*[ ⚠ ️] Este comando es solo para miembros premium*',
     group: '*[ ⚠ ️] Este comando solo se puede usar en grupos*',
+    nsfw: '*[ ⚠ ️] Este comando es solo para administradores del grupo*',
     private: '*[ ⚠ ️] Este comando solo se puede usar en el chat privado del numero del Bot*',
     admin: '*[ ⚠ ️]️ Este comando es solo para administradores del grupo*',
     botAdmin: '*[ ⚠ ️] Ascender el Bot a admin para usar este comando*',
-    unreg: '*[ ⚠ ️]️ Regístrese para utilizar esta función escribiendo:*\n\n*#registrar nombre.edad*\n\n*Ejemplo:*\n*#registrar Lolito.18*\n\n*Este registro se solicita con el fin de que el Bot no se sature*\n\nNota: No escriba los "*" ni los "_"\n\n*Nota: El registro fue quitado, si algun comando le pide registro favor de reportarlo*'
+    unreg: '*[ ⚠ ️]️ Regístrese para utilizar esta función escribiendo:*\n\n*#registrar nombre.edad*\n\n*Ejemplo:*\n*#registrar FNbot.15*\n\n*Este registro se solicita con el fin de que el Bot no se sature*\n\nNota: No escriba los "*" ni los "_"\n\n*Nota: El registro fue quitado, si algun comando le pide registro favor de reportarlo*'
   }[type]
   if (msg) return m.reply(msg)
 }
